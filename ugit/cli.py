@@ -36,7 +36,7 @@ def init(args):
 
 def hash_object(args):
     with open(args.file, 'rb') as f:
-        print(data.hash_object (f.read()))
+        print(data.hash_object(f.read()))
 
 
 def cat_file(args):
